@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f9f8f8;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.title {
+  color: #2f456b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da !important;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.form-control::placeholder {
+  color: #adb5bd;
+  opacity: 1;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #f44336 !important;
+  outline: 0;
+  box-shadow: 0 0 0 1px #f44336;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f44336;
+  border-color: #f44336;
+  width: 30%;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #f44336;
+  border-color: #f44336;
+  box-shadow: 0 0 0 0.2rem #f44336;
+}
+
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #f44336;
+}
+
+.btn-primary:disabled,
+.btn-primary.disabled {
+  color: #fff;
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #423b3b;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.card_footer span,
+a {
+  font-weight: 500;
+  color: #344767;
+  text-decoration: none;
+  transition: all 3s;
+}
+.card_footer span,
+a:hover {
+  color: #768299;
+}
+.card {
+  box-shadow: 0 20px 27px 0 #0000000d;
+  border-radius: 1rem;
+}
